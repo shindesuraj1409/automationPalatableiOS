@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Somke Test" duration-ms="45" started-at="2020-05-25T22:04:56 IST" finished-at="2020-05-25T22:04:56 IST">
+    <groups>
+    </groups>
+    <test name="Sample Test" duration-ms="45" started-at="2020-05-25T22:04:56 IST" finished-at="2020-05-25T22:04:56 IST">
+      <class name="automation.palatable.ios.TestCase_Sample001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@56235b8e]" name="setUp" is-config="true" duration-ms="15" started-at="2020-05-25T22:04:56 IST" finished-at="2020-05-25T22:04:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@56235b8e]" name="sampleTest" duration-ms="7" started-at="2020-05-25T22:04:56 IST" finished-at="2020-05-25T22:04:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@56235b8e]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-05-25T22:05:01 IST" finished-at="2020-05-25T22:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.palatable.ios.TestCase_Sample001 -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- Somke Test -->
+</testng-results>
