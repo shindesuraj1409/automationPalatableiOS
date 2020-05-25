@@ -8,22 +8,9 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestCase_Sample001 
+public class TestCase_Sample001 extends BaseClass
 {
-	@BeforeSuite
-	public void setUp()
-	{
-		System.out.println("In Setup");
-	}
 	
-	
-	@AfterSuite
-	public void tearDown()
-	{
-		System.out.println("In tearDown");
-		
-		
-	}
 	
 	@Test
 	public void sampleTest()
