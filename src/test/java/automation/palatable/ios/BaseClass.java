@@ -21,16 +21,33 @@ public class BaseClass
 	AppiumDriverLocalService service;
 	AppiumServiceBuilder builder;
 	DesiredCapabilities cap;
+	
 	public static URL url;
 	public static IOSDriver<IOSElement> driver;
 	@BeforeSuite
 	public void setUp() throws MalformedURLException
 	{
 		
+		startAppiumServer();
+		
+	}
+	
+	@AfterSuite
+	public void tearDown()
+	{
+		service.stop();
+		driver.quit();
+		System.out.println("In tear down");
+	}
+	
+	public void startAppiumServer()
+	{
+		try
+		{
 		cap= new DesiredCapabilities();
 		builder= new AppiumServiceBuilder();
-		builder.withIPAddress("127.0.0.1");
-		builder.usingAnyFreePort();
+		//builder.withIPAddress("127.0.0.1");
+		//builder.usingAnyFreePort();
 		//final String URL_STRING="http://localhost:4723/wd/hub";
 		//url=new URL(URL_STRING);
 		//Capabilites
@@ -55,20 +72,23 @@ public class BaseClass
 	
 	
 		builder.withCapabilities(cap);
-		builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
-		builder.withArgument(GeneralServerFlag.LOG_LEVEL,"error");
+		//builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
+		//builder.withArgument(GeneralServerFlag.LOG_LEVEL,"error");
 		service= AppiumDriverLocalService.buildDefaultService();
 		service.start();
-		driver = new IOSDriver<IOSElement>(cap);
+		URL serviceURL=service.getUrl();
+		System.out.println("URL:"+serviceURL);
+		driver = new IOSDriver<IOSElement>(serviceURL,cap);
+		}catch(Exception e)
+		{
+			System.out.println("Exception"+e);
+		}
+	}
+	
+	public void checkPortAvailable()
+	{
 		
 	}
-	
-	@AfterSuite
-	public void tearDown()
-	{
-		service.stop();
-	}
-	
 	
 
 }
