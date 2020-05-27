@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.566" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.296" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/test-classes:/Users/Admin/eclipse-workspace/automation.palatable.ios/target/classes:/Users/Admin/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/Admin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:"/>
+    <property name="java.class.path" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/test-classes:/Users/Admin/eclipse-workspace/automation.palatable.ios/target/classes:/Users/Admin/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/Admin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/Admin/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Admin/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Admin/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Admin/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Admin/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Admin/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Admin/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Admin/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Admin/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Admin/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Admin/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/Admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/Admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/Admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Admin/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Admin/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/Admin/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/Admin/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/Admin/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/Admin/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/Admin/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Admin/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Admin/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Admin/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/Admin/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/Admin/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/Admin/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,9 +17,9 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/surefire/surefirebooter8286554976475600745.jar /Users/Admin/eclipse-workspace/automation.palatable.ios/target/surefire 2020-05-25T22-05-25_467-jvmRun1 surefire6561463247312771445tmp surefire_03248231408818624678tmp"/>
+    <property name="sun.java.command" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/surefire/surefirebooter521231751797757186.jar /Users/Admin/eclipse-workspace/automation.palatable.ios/target/surefire 2020-05-28T00-27-14_932-jvmRun1 surefire293515711389086770tmp surefire_02029766041709601823tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.test.class.path" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/test-classes:/Users/Admin/eclipse-workspace/automation.palatable.ios/target/classes:/Users/Admin/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/Admin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/test-classes:/Users/Admin/eclipse-workspace/automation.palatable.ios/target/classes:/Users/Admin/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/Admin/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/Admin/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Admin/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Admin/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Admin/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Admin/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Admin/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Admin/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Admin/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Admin/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Admin/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Admin/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/Admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/Admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/Admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Admin/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Admin/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/Admin/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/Admin/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/Admin/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/Admin/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/Admin/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Admin/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Admin/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Admin/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/Admin/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/Admin/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/Admin/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/Admin/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/Admin"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/surefire/surefirebooter8286554976475600745.jar"/>
+    <property name="surefire.real.class.path" value="/Users/Admin/eclipse-workspace/automation.palatable.ios/target/surefire/surefirebooter521231751797757186.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,5 +61,155 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="sampleTest" classname="automation.palatable.ios.TestCase_Sample001" time="0.014"/>
+  <testcase name="sampleTest" classname="automation.palatable.ios.TestCase_Sample001" time="0.011">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at automation.palatable.ios.TestCase_Sample001.sampleTest(TestCase_Sample001.java:20)
+</failure>
+    <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.17.0
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:4723
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.17.0"}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m7 ms - 68&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+URL:http://0.0.0.0:4723/wd/hub
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"app":"/Users/Admin/Downloads/Food-Live 2.ipa","noReset":true,"xcodeOrgId":"MQ7X5VPF23","automationName":"XCUITest","useNewWDA":false,"platformName":"iOS","udid":"bf58162011525c03a6008a910b2825b612d806c1","deviceName":"iPhone 8","updatedWDABundleId":"com.facebook123.WebDriverAgentLib","xcodeSigningId":"iPhone Developer"},"capabilities":{"firstMatch":[{"appium:app":"/Users/Admin/Downloads/Food-Live 2.ipa","appium:automationName":"XCUITest","appium:deviceName":"iPhone 8","appium:noReset":true,"platformName":"ios","appium:udid":"bf58162011525c03a6008a910b2825b612d806c1","appium:updatedWDABundleId":"com.facebook123.WebDriverAgentLib","appium:useNewWDA":false,"appium:xcodeOrgId":"MQ7X5VPF23","appium:xcodeSigningId":"iPhone Developer"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"app":"/Users/Admin/Downloads/Food-Live 2.ipa","noReset":true,"xcodeOrgId":"MQ7X5VPF23","automationName":"XCUITest","useNewWDA":false,"platformName":"iOS","udid":"bf58162011525c03a6008a910b2825b612d806c1","deviceName":"iPhone 8","updatedWDABundleId":"com.facebook123.WebDriverAgentLib","xcodeSigningId":"iPhone Developer"},null,{"firstMatch":[{"appium:app":"/Users/Admin/Downloads/Food-Live 2.ipa","appium:automationName":"XCUITest","appium:deviceName":"iPhone 8","appium:noReset":true,"platformName":"ios","appium:udid":"bf58162011525c03a6008a910b2825b612d806c1","appium:updatedWDABundleId":"com.facebook123.WebDriverAgentLib","appium:useNewWDA":false,"appium:xcodeOrgId":"MQ7X5VPF23","appium:xcodeSigningId":"iPhone Developer"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1590605852162 (00:27:32 GMT+0530 (India Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.17.0 creating new XCUITestDriver (v3.17.0) session
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "ios",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:app": "/Users/Admin/Downloads/Food-Live 2.ipa",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "XCUITest",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "iPhone 8",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:noReset": true,
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:udid": "bf58162011525c03a6008a910b2825b612d806c1",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:updatedWDABundleId": "com.facebook123.WebDriverAgentLib",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:useNewWDA": false,
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:xcodeOrgId": "MQ7X5VPF23",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:xcodeSigningId": "iPhone Developer"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[XCUITest]&amp#27;[39m 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 0daa03d6-9268-4ae3-ac3f-3b45e15fa505
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Current user: 'Admin'
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Available devices: bf58162011525c03a6008a910b2825b612d806c1, 71b49bb15138778bf87ed41896766f30501005b0
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Creating iDevice object with udid 'bf58162011525c03a6008a910b2825b612d806c1'
+&amp#27;[35m[XCUITest]&amp#27;[39m Determining device to run tests on: udid: 'bf58162011525c03a6008a910b2825b612d806c1', real device: true
+&amp#27;[35m[XCUITest]&amp#27;[39m No platformVersion specified. Using device version: '13.4.1'
+&amp#27;[35m[XCUITest]&amp#27;[39m Normalized platformVersion capability value '13.4.1' to '13.4'
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'xcodeDetailsRetrieved' logged at 1590605852973 (00:27:32 GMT+0530 (India Standard Time))
+&amp#27;[35m[BaseDriver]&amp#27;[39m Using local app '/Users/Admin/Downloads/Food-Live 2.ipa'
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Unzipping '/Users/Admin/Downloads/Food-Live 2.ipa'
+[debug] &amp#27;[35m[Support]&amp#27;[39m Traversed 538 directories and 1387 files in 225ms
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Extracted 1925 item(s) from '/Users/Admin/Downloads/Food-Live 2.ipa'
+[debug] &amp#27;[35m[Support]&amp#27;[39m Traversed 538 directories and 1387 files in 255ms
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Matched 1923 item(s) in the extracted archive. Assuming 'Payload/Palatable.app' is the correct bundle
+&amp#27;[35m[BaseDriver]&amp#27;[39m Unzipped local app to '/var/folders/pl/y5cd2l1s54s61cclgv007m940000gn/T/2020428-2453-1lxi866.w3e2h/Payload/Palatable.app'
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'appConfigured' logged at 1590605858406 (00:27:38 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Checking whether app '/var/folders/pl/y5cd2l1s54s61cclgv007m940000gn/T/2020428-2453-1lxi866.w3e2h/Payload/Palatable.app' is actually present on file system
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m App is present
+[debug] &amp#27;[35m[iOS]&amp#27;[39m Getting bundle ID from app '/var/folders/pl/y5cd2l1s54s61cclgv007m940000gn/T/2020428-2453-1lxi866.w3e2h/Payload/Palatable.app': 'com.palatable.consumer'
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'resetStarted' logged at 1590605858436 (00:27:38 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Reset: fullReset not set. Leaving as is
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'resetComplete' logged at 1590605858437 (00:27:38 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Crash reports root '/Users/Admin/Library/Logs/CrashReporter/MobileDevice/iPad' does not exist. Got nothing to gather.
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'logCaptureStarted' logged at 1590605858721 (00:27:38 GMT+0530 (India Standard Time))
+&amp#27;[35m[XCUITest]&amp#27;[39m Setting up real device
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Verifying application platform
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Installing '/var/folders/pl/y5cd2l1s54s61cclgv007m940000gn/T/2020428-2453-1lxi866.w3e2h/Payload/Palatable.app' on device with UUID 'bf58162011525c03a6008a910b2825b612d806c1'...
+[debug] &amp#27;[35m[Support]&amp#27;[39m Traversed 536 directories and 1387 files in 12421ms
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Pushed the app files successfully after 12576ms
+&amp#27;[35m[XCUITest]&amp#27;[39m App installation succeeded after 14349ms
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m The app has been installed successfully.
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'appInstalled' logged at 1590605873269 (00:27:53 GMT+0530 (India Standard Time))
+&amp#27;[35m[WebDriverAgent]&amp#27;[39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+&amp#27;[35m[WebDriverAgent]&amp#27;[39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m Error: Command 'lsof -ti tcp\:8100' exited with code 1
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/teen_process/lib/exec.js:113:19)
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m     at ChildProcess.emit (events.js:321:20)
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m     at maybeClose (internal/child_process.js:1026:16)
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+&amp#27;[35m[DevCon Factory]&amp#27;[39m Requesting connection for device bf58162011525c03a6008a910b2825b612d806c1 on local port 8100, device port 8100
+[debug] &amp#27;[35m[DevCon Factory]&amp#27;[39m Cached connections count: 0
+&amp#27;[35m[DevCon Factory]&amp#27;[39m Successfully requested the connection for bf58162011525c03a6008a910b2825b612d806c1:8100
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m Parsed BUILD_DIR configuration value: '/Users/Admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m Got derived data root: '/Users/Admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Starting WebDriverAgent initialization with the synchronization key '/Users/Admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] &amp#27;[35m[iProxy@bf581620:8100]&amp#27;[39m Connection was refused to port 8100
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m WDA is not listening at 'http://127.0.0.1:8100/'
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m WDA is currently not running. There is nothing to cache
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'wdaStartAttempted' logged at 1590605876449 (00:27:56 GMT+0530 (India Standard Time))
+&amp#27;[35m[WebDriverAgent]&amp#27;[39m Launching WebDriverAgent on the device
+&amp#27;[35m[WebDriverAgent]&amp#27;[39m Fetching dependencies
+&amp#27;[35m[WebDriverAgent]&amp#27;[39m Launching WebDriverAgent on the device
+&amp#27;[35m[WebDriverAgent]&amp#27;[39m Fetching dependencies
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'wdaStartFailed' logged at 1590605876480 (00:27:56 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Unable to launch WebDriverAgent because of xcodebuild failure: not found: carthage. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+&amp#27;[35m[XCUITest]&amp#27;[39m Quitting and uninstalling WebDriverAgent
+&amp#27;[35m[WebDriverAgent]&amp#27;[39m Shutting down sub-processes
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m Successfully reset '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj/project.pbxproj' with bundle id 'com.facebook.WebDriverAgentRunner'
+[debug] &amp#27;[35m[WebDriverAgent]&amp#27;[39m No WDAs on the device.
+&amp#27;[35m[XCUITest]&amp#27;[39m Error: Unable to launch WebDriverAgent because of xcodebuild failure: not found: carthage. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+&amp#27;[35m[XCUITest]&amp#27;[39m     at quitAndUninstall (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:525:15)
+&amp#27;[35m[XCUITest]&amp#27;[39m     at /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:555:11
+&amp#27;[35&amp#27;[35m[Dem[XCUITest]vCon Factory]&amp#27;[39m     at wrapped (/usr/local/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.js:35:13)
+&amp#27;[35m[XCUITest]&amp#27;[39m     at retry (/usr/local/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.js:18:13)
+&amp#27;[35m[XCUITest]&amp#27;[&amp#27;[39m     at retryInterval (/usr/local/lib/node_modules/appium/nod39m Releasing connections for bf58162011525c03a6008a910b2825b612d806c1 device on any port number
+&amp#27;[35m[DevCon Factory]&amp#27;[39m Found cached connections to release: ["bf58162011525c03a6008a910b2825b612d806c1:8100"]
+&amp#27;[35m[DevCon Factory]&amp#27;[39m Releasing the listener for 'bf58162011525c03a6008a910b2825b612d806c1:8100'
+[debug] &amp#27;[35m[iProxy@bf581620:8100]&amp#27;[39m Closing the connection
+[debug] &amp#27;[35m[DevCon Factory]&amp#27;[39m Cached connections count: 0
+[debug] &amp#27;[35m[XCUITest]&amp#27;[39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+&amp#27;[35m[iProxy@bf581620:8100]&amp#27;[39m The connection has been closed
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1590605876919 (00:27:56 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: not found: carthage. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at quitAndUninstall (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:525:15)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:555:11
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at wrapped (/usr/local/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.js:35:13)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at retry (/usr/local/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.js:18:13)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at retryInterval (/usr/local/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.js:45:10)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:535:7
+e_modules/asyncbox/lib/asyncbox.js:45:10)
+&amp#27;[35m[XCUITest]&amp#27;[39m     at /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:535:7
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Destroying socket connection
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m24776 ms - 1245&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+Exceptionorg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to launch WebDriverAgent because of xcodebuild failure: not found: carthage. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: '192.168.0.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_242'
+Driver info: driver.version: IOSDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to launch WebDriverAgent because of xcodebuild failure: not found: carthage. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:392:37)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at processImmediate (internal/timers.js:429:9)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: '192.168.0.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_242'
+Driver info: driver.version: IOSDriver
+Nothing to Test
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="automation.palatable.ios.TestCase_Sample001" time="5.553">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
 </testsuite>

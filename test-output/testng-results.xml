@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Somke Test" duration-ms="65" started-at="2020-05-27T23:28:30 IST" finished-at="2020-05-27T23:28:30 IST">
+  <suite name="Somke Test" duration-ms="3630" started-at="2020-05-28T00:31:04 IST" finished-at="2020-05-28T00:31:07 IST">
     <groups>
     </groups>
-    <test name="Sample Test" duration-ms="65" started-at="2020-05-27T23:28:30 IST" finished-at="2020-05-27T23:28:30 IST">
+    <test name="Sample Test" duration-ms="3630" started-at="2020-05-28T00:31:04 IST" finished-at="2020-05-28T00:31:07 IST">
       <class name="automation.palatable.ios.TestCase_Sample001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="setUp" is-config="true" duration-ms="82251" started-at="2020-05-27T23:27:08 IST" finished-at="2020-05-27T23:28:30 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="setUp" is-config="true" duration-ms="23901" started-at="2020-05-28T00:30:40 IST" finished-at="2020-05-28T00:31:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="sampleTest" duration-ms="22" started-at="2020-05-27T23:28:30 IST" finished-at="2020-05-27T23:28:30 IST">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="sampleTest" duration-ms="3590" started-at="2020-05-28T00:31:04 IST" finished-at="2020-05-28T00:31:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="tearDown" is-config="true" duration-ms="10553" started-at="2020-05-27T23:28:35 IST" finished-at="2020-05-27T23:28:46 IST">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="tearDown" is-config="true" duration-ms="10554" started-at="2020-05-28T00:31:12 IST" finished-at="2020-05-28T00:31:23 IST">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused (Connection refused)
