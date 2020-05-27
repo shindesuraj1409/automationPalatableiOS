@@ -49,7 +49,7 @@ public class BaseClass
 		cap= new DesiredCapabilities();
 		builder= new AppiumServiceBuilder();
 		//builder.withIPAddress("127.0.0.1");
-		//builder.usingAnyFreePort();
+		builder.usingAnyFreePort();
 		//final String URL_STRING="http://localhost:4723/wd/hub";
 		//url=new URL(URL_STRING);
 		//Capabilites
