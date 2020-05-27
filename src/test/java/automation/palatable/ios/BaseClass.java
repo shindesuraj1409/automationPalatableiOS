@@ -37,7 +37,7 @@ public class BaseClass
 	public void tearDown()
 	{
 		service.stop();
-		driver.quit();
+		//driver.quit();
 		System.out.println("In tear down");
 	}
 	
