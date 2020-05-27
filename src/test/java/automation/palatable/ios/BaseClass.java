@@ -1,5 +1,6 @@
 package automation.palatable.ios;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -44,6 +45,7 @@ public class BaseClass
 	{
 		try
 		{
+		getDevicelist();	
 		cap= new DesiredCapabilities();
 		builder= new AppiumServiceBuilder();
 		//builder.withIPAddress("127.0.0.1");
@@ -52,13 +54,14 @@ public class BaseClass
 		//url=new URL(URL_STRING);
 		//Capabilites
 		
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"iPad");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"iPhone 8");
 		cap.setCapability(MobileCapabilityType.UDID, "bf58162011525c03a6008a910b2825b612d806c1");
+		//cap.setCapability(MobileCapabilityType.UDID, "auto");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS");
 		cap.setCapability("xcodeOrgId", "MQ7X5VPF23");
 		cap.setCapability("xcodeSigningId", "iPhone Developer");
 	 //capabilities.setCapability(MobileCapabilityType, "13.3.1");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.4.1");
+		//cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.4.1");
 		cap.setCapability(MobileCapabilityType.APP, "/Users/Admin/Downloads/Food-Live 2.ipa");
 		cap.setCapability(MobileCapabilityType.NO_RESET, true);
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
@@ -85,9 +88,10 @@ public class BaseClass
 		}
 	}
 	
-	public void checkPortAvailable()
+	public void getDevicelist() throws IOException
 	{
-		
+		//System.out.println("udid:"+driver.getCapabilities().getCapability("udid"));
+	
 	}
 	
 

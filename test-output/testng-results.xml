@@ -2,24 +2,41 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Somke Test" duration-ms="46" started-at="2020-05-26T23:57:56 IST" finished-at="2020-05-26T23:57:56 IST">
+  <suite name="Somke Test" duration-ms="65" started-at="2020-05-27T23:28:30 IST" finished-at="2020-05-27T23:28:30 IST">
     <groups>
     </groups>
-    <test name="Sample Test" duration-ms="46" started-at="2020-05-26T23:57:56 IST" finished-at="2020-05-26T23:57:56 IST">
+    <test name="Sample Test" duration-ms="65" started-at="2020-05-27T23:28:30 IST" finished-at="2020-05-27T23:28:30 IST">
       <class name="automation.palatable.ios.TestCase_Sample001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="setUp" is-config="true" duration-ms="40350" started-at="2020-05-26T23:57:16 IST" finished-at="2020-05-26T23:57:56 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="setUp" is-config="true" duration-ms="82251" started-at="2020-05-27T23:27:08 IST" finished-at="2020-05-27T23:28:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="sampleTest" duration-ms="6" started-at="2020-05-26T23:57:56 IST" finished-at="2020-05-26T23:57:56 IST">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="sampleTest" duration-ms="22" started-at="2020-05-27T23:28:30 IST" finished-at="2020-05-27T23:28:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="tearDown" is-config="true" duration-ms="596" started-at="2020-05-26T23:58:01 IST" finished-at="2020-05-26T23:58:02 IST">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:automation.palatable.ios.TestCase_Sample001@5e853265]" name="tearDown" is-config="true" duration-ms="10553" started-at="2020-05-27T23:28:35 IST" finished-at="2020-05-27T23:28:46 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Connection refused (Connection refused)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: '192.168.0.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_242'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at automation.palatable.ios.BaseClass.tearDown(BaseClass.java:39)
+              <![CDATA[org.openqa.selenium.WebDriverException: Connection refused (Connection refused)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: '192.168.0.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_242'
+Driver info: driver.version: RemoteWebDriver
+at io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+at java.util.Optional.orElseGet(Optional.java:267)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at automation.palatable.ios.BaseClass.tearDown(BaseClass.java:40)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -39,9 +56,39 @@ at org.testng.TestNG.run(TestNG.java:1000)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+at java.net.PlainSocketImpl.socketConnect(Native Method)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.net.Socket.connect(Socket.java:607)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+... 25 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
