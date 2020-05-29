@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8417" started-at="2020-05-29T23:08:08 IST" finished-at="2020-05-29T23:08:16 IST">
+  <suite name="Default suite" duration-ms="14395" started-at="2020-05-29T23:51:13 IST" finished-at="2020-05-29T23:51:27 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8417" started-at="2020-05-29T23:08:08 IST" finished-at="2020-05-29T23:08:16 IST">
+    <test name="Default test" duration-ms="14395" started-at="2020-05-29T23:51:13 IST" finished-at="2020-05-29T23:51:27 IST">
       <class name="automation.palatable.TestCases.TestCase_Sample001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="setUp" is-config="true" duration-ms="18136" started-at="2020-05-29T23:07:49 IST" finished-at="2020-05-29T23:08:08 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="setUp" is-config="true" duration-ms="17731" started-at="2020-05-29T23:50:55 IST" finished-at="2020-05-29T23:51:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="sampleTest" duration-ms="8374" started-at="2020-05-29T23:08:08 IST" finished-at="2020-05-29T23:08:16 IST">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="sampleTest" duration-ms="14352" started-at="2020-05-29T23:51:13 IST" finished-at="2020-05-29T23:51:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-05-29T23:08:21 IST" finished-at="2020-05-29T23:08:21 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-29T23:51:33 IST" finished-at="2020-05-29T23:51:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
