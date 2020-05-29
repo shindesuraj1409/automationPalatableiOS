@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="automation.palatable.TestCases.TestCase_CheckInvalidSignIN"/>
+      
       <class name="automation.palatable.TestCases.TestCase_Sample001"/>
     </classes>
   </test> <!-- Test -->

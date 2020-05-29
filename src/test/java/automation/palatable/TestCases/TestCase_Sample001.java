@@ -36,16 +36,12 @@ public class TestCase_Sample001 extends BaseClass
 	public void sampleTest() throws InterruptedException
 	{
 		WebDriverWait wait= new WebDriverWait(driver, 10);
-		WelcomeScreen wc= new WelcomeScreen(driver);
-		LoginScreen ls= new LoginScreen(driver);
+		new WelcomeScreen(driver);
+		new LoginScreen(driver);
 		new GenericButtons(driver);
 		Thread.sleep(3000);
 		WelcomeScreen.have_account.click();
-		LoginScreen.googlePlusLoginButton.click();
-		wait.until(ExpectedConditions.alertIsPresent());
-		driver.switchTo().alert().accept();
-		GenericButtons.cancel_button.click();
-		
+		LoginScreen.SignUpButton.click();
 		
 		
 		
