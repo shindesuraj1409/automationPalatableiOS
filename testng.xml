@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Somke Test">
-  <test thread-count="5" name="Sample Test">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="automation.palatable.ios.TestCase_Sample001"/>
+      <class name="automation.palatable.TestCases.TestCase_CheckInvalidSignIN"/>
+      <class name="automation.palatable.TestCases.TestCase_Sample001"/>
     </classes>
-  </test> <!-- Sample Test -->
-</suite> <!-- Somke Test -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

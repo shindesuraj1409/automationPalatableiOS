@@ -19,9 +19,12 @@ public class GenericButtons
 	}
 	
 	//******Elements*********
-	@FindBy(name="backGreen") IOSElement back_button;
-	@FindBy(name="Skip") IOSElement skip_button;
-	@FindBy(name="Next") IOSElement next_button;
+	@FindBy(name="backGreen") public static IOSElement back_button;
+	@FindBy(name="Skip") public static IOSElement skip_button;
+	@FindBy(name="Next") public static IOSElement next_button;
+	@FindBy(name="Cancel") public static IOSElement cancel_button;
+	@FindBy(name="Done") public static IOSElement done_button;
+
 	
 	
 	//*****ActionMethods*********

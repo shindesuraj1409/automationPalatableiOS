@@ -2,20 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14395" started-at="2020-05-29T23:51:13 IST" finished-at="2020-05-29T23:51:27 IST">
+  <suite name="Default suite" duration-ms="33000" started-at="2020-05-30T01:45:13 IST" finished-at="2020-05-30T01:45:46 IST">
     <groups>
+      <group name="funcationalTest">
+        <method signature="TestCase_Sample001.sampleTest()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@76707e36]" name="sampleTest" class="automation.palatable.TestCases.TestCase_Sample001"/>
+      </group> <!-- funcationalTest -->
+      <group name="Smoketest">
+        <method signature="TestCase_Sample001.sampleTest()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@76707e36]" name="sampleTest" class="automation.palatable.TestCases.TestCase_Sample001"/>
+      </group> <!-- Smoketest -->
     </groups>
-    <test name="Default test" duration-ms="14395" started-at="2020-05-29T23:51:13 IST" finished-at="2020-05-29T23:51:27 IST">
+    <test name="Default test" duration-ms="33000" started-at="2020-05-30T01:45:13 IST" finished-at="2020-05-30T01:45:46 IST">
       <class name="automation.palatable.TestCases.TestCase_Sample001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="setUp" is-config="true" duration-ms="17731" started-at="2020-05-29T23:50:55 IST" finished-at="2020-05-29T23:51:13 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@76707e36]" name="setUp" is-config="true" duration-ms="18460" started-at="2020-05-30T01:45:14 IST" finished-at="2020-05-30T01:45:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="sampleTest" duration-ms="14352" started-at="2020-05-29T23:51:13 IST" finished-at="2020-05-29T23:51:27 IST">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@76707e36]" name="sampleTest" duration-ms="14474" started-at="2020-05-30T01:45:32 IST" finished-at="2020-05-30T01:45:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@5e853265]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-29T23:51:33 IST" finished-at="2020-05-29T23:51:33 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.palatable.TestCases.TestCase_Sample001@76707e36]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-05-30T01:45:46 IST" finished-at="2020-05-30T01:45:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -20,9 +20,9 @@ public class WelcomeScreen
 	}
 	
 	//************variables**************//
-	@FindBy(name="GET STARTED") static IOSElement get_Started;
+	@FindBy(name="GET STARTED") public static IOSElement get_Started;
 	
-	@FindBy(name="I HAVE AN ACCOUNT") static IOSElement have_account;
+	@FindBy(name="I HAVE AN ACCOUNT")  public static IOSElement have_account;
 	
 	
 	//***************Action Methods************//

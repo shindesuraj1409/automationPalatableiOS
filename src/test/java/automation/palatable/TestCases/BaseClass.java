@@ -6,8 +6,12 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
@@ -25,7 +29,8 @@ public class BaseClass
 	
 	public static URL url;
 	public static IOSDriver<IOSElement> driver;
-	@BeforeSuite
+	
+	@BeforeClass
 	public void setUp() throws MalformedURLException
 	{
 		
@@ -33,7 +38,8 @@ public class BaseClass
 		
 	}
 	
-	@AfterSuite
+	
+	@AfterClass
 	public void tearDown()
 	{
 		service.stop();

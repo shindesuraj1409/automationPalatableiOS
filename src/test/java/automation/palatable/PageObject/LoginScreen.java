@@ -16,14 +16,14 @@ public class LoginScreen
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
-	@FindBy(name="Login") static IOSElement loginScreenTitle;
-	@FindBy(name="emailID") static IOSElement emailID_field;
-	@FindBy(name="password") static IOSElement password_field;
-	@FindBy(name="Forgot Password?") static IOSElement forgotPassowrd;
-	@FindBy(name="facebookButton") static IOSElement facebookButton;
-	@FindBy(name="googlePlusLoginButton") static IOSElement googlePlusLoginButton;
-	@FindBy(name="Sign Up") static IOSElement SignUpButton;
-	@FindBy(name="SIGN IN") static IOSElement SignInButton;
+	@FindBy(name="Login") public static IOSElement loginScreenTitle;
+	@FindBy(name="emailID") public static IOSElement emailID_field;
+	@FindBy(name="password") public static IOSElement password_field;
+	@FindBy(name="Forgot Password?") public static IOSElement forgotPassowrd;
+	@FindBy(name="facebookButton") public static IOSElement facebookButton;
+	@FindBy(name="googlePlusLoginButton") public static IOSElement googlePlusLoginButton;
+	@FindBy(name="Sign Up") public static IOSElement SignUpButton;
+	@FindBy(name="SIGN IN") public static IOSElement SignInButton;
 	
 	
 	//Action methods;
