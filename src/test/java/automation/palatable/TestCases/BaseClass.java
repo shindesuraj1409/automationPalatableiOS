@@ -1,4 +1,4 @@
-package automation.palatable.ios;
+package automation.palatable.TestCases;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

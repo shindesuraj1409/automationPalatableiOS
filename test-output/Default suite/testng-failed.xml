@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.palatable.ios.TestCase_Sample001">
+      <class name="automation.palatable.TestCases.TestCase_Sample001">
         <methods>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="sampleTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- automation.palatable.ios.TestCase_Sample001 -->
+      </class> <!-- automation.palatable.TestCases.TestCase_Sample001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
