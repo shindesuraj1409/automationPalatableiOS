@@ -1,11 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 52.296 s <<< FAILURE! - in TestSuite
-sampleTest(automation.palatable.ios.TestCase_Sample001)  Time elapsed: 0.011 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.428 s <<< FAILURE! - in TestSuite
+sampleTest(automation.palatable.TestCases.TestCase_Sample001)  Time elapsed: 0.041 s  <<< FAILURE!
 java.lang.NullPointerException
-	at automation.palatable.ios.TestCase_Sample001.sampleTest(TestCase_Sample001.java:20)
-
-tearDown(automation.palatable.ios.TestCase_Sample001)  Time elapsed: 5.553 s  <<< FAILURE!
-java.lang.NullPointerException
+	at automation.palatable.TestCases.TestCase_Sample001.sampleTest(TestCase_Sample001.java:38)
 

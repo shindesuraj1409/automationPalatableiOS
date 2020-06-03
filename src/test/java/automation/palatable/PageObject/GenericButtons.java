@@ -24,6 +24,11 @@ public class GenericButtons
 	@FindBy(name="Next") public static IOSElement next_button;
 	@FindBy(name="Cancel") public static IOSElement cancel_button;
 	@FindBy(name="Done") public static IOSElement done_button;
+	@FindBy(name="Home") public static IOSElement home_button;
+	@FindBy(name="Like/Dislike") public static IOSElement like_dislike_button;
+	@FindBy(name="Swipe") public static IOSElement swipe_button;
+	@FindBy(name="Cart") public static IOSElement cart_button;
+	@FindBy(name="Profile") public static IOSElement profile_button;
 
 	
 	

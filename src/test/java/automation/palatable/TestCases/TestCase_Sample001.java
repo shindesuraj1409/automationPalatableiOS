@@ -1,51 +1,36 @@
 package automation.palatable.TestCases;
 
-import org.testng.annotations.Test;
-import java.sql.Time;
-import java.util.concurrent.TimeUnit;
+import java.io.IOException;
 
-import org.aspectj.asm.IProgramElement.Accessibility;
-import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByName;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Keyboard;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import automation.palatable.PageObject.GenericButtons;
-import automation.palatable.PageObject.LoginScreen;
-import automation.palatable.PageObject.WelcomeScreen;
-import io.appium.java_client.MobileBy;
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import io.appium.java_client.pagefactory.iOSFindBy;
-import net.bytebuddy.asm.Advice.Return;
+import automation.palatable.utilites.Navigator;
+import automation.palatable.utilites.ScreenType;
 
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+public class TestCase_Sample001 extends BaseClass {
 
-public class TestCase_Sample001 extends BaseClass
-{
-	
-	@Test(groups= {"funcationalTest","Smoketest"})
-	public void sampleTest() throws InterruptedException
-	{
-		WebDriverWait wait= new WebDriverWait(driver, 10);
-		new WelcomeScreen(driver);
-		new LoginScreen(driver);
-		new GenericButtons(driver);
-		Thread.sleep(3000);
-		WelcomeScreen.have_account.click();
-		LoginScreen.SignUpButton.click();
-		
-		
-		
+	@BeforeClass
+	public void beforeTest() throws InterruptedException {
+		new Navigator(driver).navigate(ScreenType.SIGN_UP_SCREEN );
 	}
-
-
+	
+	@Test
+	public void verifyButtonExistance() throws InterruptedException, IOException {	
+		boolean exists = driver.getPageSource().contains("Verify");
+		Assert.assertTrue(exists, "Verify button does not exists");
+	}
+	
+	@Test
+	public void forgotPasswordButtonExistance() throws InterruptedException, IOException {
+		boolean exists = driver.getPageSource().contains("Login");
+		Assert.assertTrue(exists, "Login button does not exists");
+	}
+	
+	@Test
+	public void sendButtonExistance() throws InterruptedException, IOException {
+		boolean exists = driver.getPageSource().contains("Send");
+		Assert.assertTrue(exists, "Send button does not exists");
+	}
 }

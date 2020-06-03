@@ -15,7 +15,7 @@ public class SignUpScreen
 		this.driver=driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-	
+	@FindBy(name="Signup") public static IOSElement signup_title;
 	@FindBy(name="email") public static IOSElement email_field;
 	@FindBy(name="password") public static IOSElement password_field;
 	//@FindBy(xpath="") Same name i.e email for Full name and mobile number

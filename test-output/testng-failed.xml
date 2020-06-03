@@ -5,8 +5,9 @@
     <classes>
       <class name="automation.palatable.TestCases.TestCase_Sample001">
         <methods>
+          <include name="beforeTest"/>
           <include name="tearDown"/>
-          <include name="sampleTest"/>
+          <include name="sendButtonExistance"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- automation.palatable.TestCases.TestCase_Sample001 -->
